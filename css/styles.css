@@ -1,0 +1,141 @@
+*{box-sizing: border-box;}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* Header */
+.header{
+    position: absolute;
+    width: 100%;
+    padding: 15px 0;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Menu */
+.menu__list{
+    display: flex;
+}
+.menu__list-item + .menu__list-item{
+    margin-left: 20px;
+}
+.menu__list-link{
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none;
+}
+/* Section Top */
+.section-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../image/bg-top.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+}
+.section-top__title{
+    padding: 9px 0;
+    font-size: 70px;
+    font-weight: 700;
+}
+.section-top__subtitle{
+    font-size: 40px;
+    font-weight: 300;
+}
+/* Section Services */
+.section-services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-services__top{
+    text-align: center;
+}
+.section-services__title{
+    color: #303030;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-services__subtitle{
+    position: relative;
+    color: #787878;
+    font-size: 26px;
+    font-weight: 500;
+}
+.section-services__subtitle::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    margin-bottom: -12px;
+    background-color: #4A4A4A;
+    left: 50%;
+    margin-left: -26px;
+}
+.section-services__button{
+    margin-top: 37px;
+    padding: 24px 73px;
+    color: #ffffff;
+    background-color: #616161;
+    font-size: 26px;
+    border: none;
+    border-radius: 50px;
+}
+/* Card */
+.card  {
+    
+    margin-top: 75px;
+    text-align: center;
+}
+.card-image{
+    margin: 33px 0;
+}
+.card-title{
+    color: #787878;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 37px 0;
+}
+.card-text{
+    margin: 37px 0;
+    color: #5F5F5F;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+
+}
+/* Work */
+.section-work{
+    background-color: #EBEBEB;
+}
