@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
     <header class="header">
@@ -76,45 +77,165 @@
         <button class="section-services__button">GET IN TOUCH</button>
     </div>
     <div class="section-work">
-        <span class="section-services__subtitle">Work</span>
-        <div class="row">
-            <div class="col col-3">
-                <div class="block">
-                    <div class="block-project-1">
-                        <img src="https://unsplash.it/450/450" alt="">
-                    </div>
-                    <div class="block-project-1">
-                        <img src="https://unsplash.it/450/450" alt="">
-                    </div>
-                    <div class="block-project-1">
-                        <img src="https://unsplash.it/450/450" alt="">
-                    </div>
+        <div class="section-work__top">
+            <span class="section-services__subtitle">Work</span>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col col-3">
+                        <div class="block-project-1">
+                            <div class="img-wrapper">
+                                <img src="https://unsplash.it/450/450" alt="">
+                            </div>
+                        </div>
+                        <div class="block-project-1">
+                            <div class="img-wrapper">
+                                <img src="https://unsplash.it/450/450" alt="">
+                            </div>
+                        </div>
+                        <div class="block-project-1">
+                            <div class="img-wrapper">
+                                <img src="https://unsplash.it/450/450" alt="">
+                            </div>
+                        </div>
                 </div>
-            </div>
-            <div class="col col-3">
-                <div class="block">
-                    <div class="block-project-1">
-                        <img src="https://unsplash.it/450/450" alt="">
-                    </div>
-                    <div class="block-project-2">
-                        <img src="https://unsplash.it/450/965" alt="">
-                    </div>
+                <div class="col col-3">
+                        <div class="block-project-1">
+                            <div class="img-wrapper">
+                                <img src="https://unsplash.it/450/450" alt="">
+                            </div>
+                        </div>
+                        <div class="block-project-2">
+                            <div class="img-wrapper">
+                                <img src="https://unsplash.it/450/965" alt="">
+                            </div>
+                        </div>
                 </div>
-            </div>
-            <div class="col col-3">
-                <div class="block">
-                    <div class="block-project-2">
-                        <img src="https://unsplash.it/450/965" alt="">
-                    </div>
-                    <div class="block-project-1">
-                        <img src="https://unsplash.it/450/450" alt="">
-                    </div>
+                <div class="col col-3">
+                        <div class="block-project-2">
+                            <div class="img-wrapper">
+                                <img src="https://unsplash.it/450/965" alt="">
+                            </div>
+                        </div>
+                        <div class="block-project-1">
+                            <div class="img-wrapper">
+                                <img src="https://unsplash.it/450/450" alt="">
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="section-references">
-        <span class="section-services__subtitle">References</span>
+        <div class="container">
+            <div class="section-references__top">
+                <span class="section-services__subtitle">References</span>
+            </div>
+                <div class="slider">
+                    <div class="section-references__left">
+                        <img class="main-photo" src="https://unsplash.it/450/450" alt="">
+                        <img class="background" src="./image/bg-reference-img.png" alt="">
+                    </div>
+                    <div class="section-references__right">
+                        <h3 class="right-title">John Doe</h3>
+                        <p class="right-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, magni, quas minima id animi nihil delectus sint, similique consectetur iste voluptates? Corporis exercitationem libero dicta nisi possimus eum ad expedita!</p>
+                    </div>
+                </div>
+            <div class="section-references__bottom">
+                <div class="row">
+                    <div class="col col-6">
+                        <div class="reserence-image">
+                            <img src="./image/reference-1.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-6">
+                        <div class="reserence-image">
+                            <img src="./image/reference-2.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-6">
+                        <div class="reserence-image">
+                            <img src="./image/reference-3.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-6">
+                        <div class="reserence-image">
+                            <img src="./image/reference-4.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-6">
+                        <div class="reserence-image">
+                            <img src="./image/reference-5.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-6">
+                        <div class="reserence-image">
+                            <img src="./image/reference-6.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="section-contact">
+        <div class="section-contact__top">
+            <span class="section-contact__title">Contact</span>
+        </div>
+        <div class="container">
+            <div class="contact-form">
+                <div class="row">
+                    <div class="col col-2">
+                        <div class="contact-form__name">
+                            <input type="name" placeholder="Full Name">
+                        </div>
+                    </div>
+                    <div class="col col-2">
+                        <div class="contact-form__email">
+                            <input type="email" placeholder="E-mail">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contact-form__text">
+                            <input type="text" placeholder="Message">
+                        </div>
+                    </div>
+                </div>
+                    <button class="contact-form__button">sent</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="logo">
+                    <img src="./image/logo-white.png" alt="">
+                </div>
+                <div class="footer-address">
+                    <span>John Street,</span>
+                    <span>Doe Building</span>
+                    <span>11/8 EDIRNE/TURKEY</span>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-contact__email">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <span>info@envato.com</span>
+                    </div>
+                    <div class="footer-contact__phone">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>900 800 70 60</span>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <div class="social-networks">
+                        <i class="fa fa-facebook networks-item" aria-hidden="true"></i>
+                        <i class="fa fa-twitter networks-item" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin networks-item" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus networks-item" aria-hidden="true"></i>
+                    </div>
+                    <span class="social-text">All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
